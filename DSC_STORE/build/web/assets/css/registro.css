@@ -1,0 +1,73 @@
+.cont-datos-registro{
+    text-align: center;
+    justify-content: center;    
+    padding: 10px;
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: column;    
+}
+.cont-campos-usuario{
+    text-align: center;
+    justify-content: center;        
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: row;    
+}
+.cont-campos-agregar{
+    text-align: center;
+    justify-content: center;        
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.cont-inputs{
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: column; 
+    padding: 60px;
+    padding-bottom:  0px;
+    margin-bottom: -20px;
+}
+.cont-imagen-usaurio
+{    
+    padding: 6px;
+    display: block;
+    margin: auto;
+    justify-content: center;        
+    max-width: 300px;
+    
+}
+.cont-imagen-agregar
+{    
+    padding: 6px;
+    display: block;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 7%;
+    justify-content: center;        
+    max-width: 300px;
+    
+}
+.cont-imagen-agregar img{
+    display: block;
+    width: 100%;    
+}
+.cont-imagen-usaurio img{
+    display: block;
+    width: 100%;    
+}
+
+#input-descripcion{    
+    display:block;     
+    margin: auto;
+    width: 100%;    
+    height: 150px;    
+}
+.boton-agregar{
+    margin-top: 60px;
+    height: max-content;
+}
+#input-url-imagen{    
+}

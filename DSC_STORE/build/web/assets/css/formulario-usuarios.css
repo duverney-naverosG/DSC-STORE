@@ -1,0 +1,16 @@
+thead{
+    background-color: gainsboro !important; 
+}
+.input-subir-imagen{   
+    
+}
+.card{
+    justify-content: center;
+    width: 450px !important;
+}
+.card-img-top{
+    max-width:  400px !important;
+    padding: 10px;
+}
+.img-usuario{    
+}

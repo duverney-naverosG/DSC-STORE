@@ -1,0 +1,102 @@
+.div-ultimos-productos{
+    text-align: center;
+    justify-content: center;
+    color: grey;
+}
+
+.cards-container{
+	text-align: center;
+	justify-content: center;
+	width: auto;
+	display: flex;	
+	flex-direction: row;		
+	flex-wrap: wrap;		
+	position: relative;	        
+      
+  }
+
+.div-imagen{	
+	width: 100%;	
+	
+}
+
+.figure-container{
+        
+        margin:10px;
+	position: relative;
+	background-color: white;
+	border-color: rgb(118, 177, 0);
+	border-radius: 7%;
+	border: 2px solid  rgba(0, 17, 2, 0.918);;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 300px;
+	max-height: max-content;
+	overflow: hidden;
+	position: relative;			
+}
+
+.cards-container figure{
+    position: relative;
+}
+.div-imagen{
+  width: 100%;  
+  display: block; 
+}
+img{
+	width: 100%;	
+}
+.div-detalles-producto{	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+figure h1{
+	color: white;
+	font-size: 32px;
+	margin-bottom: 0;
+	background-color: rgba(0, 17, 2, 0.918);        
+}
+figure h2{
+	color: white;
+	font-size: 32px;
+	padding-top: 10px;
+	padding-bottom: 3.7px;
+	background-color: black;
+	opacity: 0.5;           
+}
+
+.botones-producto-agregar{   
+    border-radius: 7%;
+    font-size: .7em;
+     margin-left: 5px;
+     margin-bottom:   8px; 
+     float: true;    
+     position: absolute;
+     bottom: 0;
+     left: 0;
+}
+.botones-producto-actualizar{   
+    border-radius: 7%;
+    font-size: .7em;
+    margin-right:  5px; 
+    margin-bottom:   8px; 
+     float: true;    
+     position: absolute;
+     bottom: 0;
+     right: 0;
+}
+.cont-botones-productos{ 
+    
+}
+
+.dropdownMenuButton:hover{
+    background: #E4E4E4 !important;
+    color:green !important;    
+}
+.tamano{
+   max-width: 348px; 
+}
